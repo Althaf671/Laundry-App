@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Laundry.Application/Laundry.Application.csproj" />
+    <Project Path="src/Laundry.Domain/Laundry.Domain.csproj" />
+    <Project Path="src/Laundry.Infrastructure/Laundry.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Laundry.Presentation/">
+    <Project Path="src/Laundry.Presentation/Laundry.WebApp/Laundry.WebApp.csproj" />
+  </Folder>
+</Solution>

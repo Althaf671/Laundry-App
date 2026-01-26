@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h1 x-data="{ message: 'I think Alpine is a good choice' }" x-text="message"></h1>
+    <div x-data="{ count: 0 }">
+    <button x-on:click="count++">Increment</button>
+ 
+    <span x-text="count"></span>
+    <div x-data="{ open: false }">
+        <button x-on:click="open = ! open">Toggle Dropdown</button>
+    
+        <div x-show="open" x-transition>
+            Dropdown Contents...
+        </div>
+    </div>
+</div>
+</div>
