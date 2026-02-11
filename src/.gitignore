@@ -485,3 +485,6 @@ $RECYCLE.BIN/
 
 # VS code counter
 .VSCodeCounter
+
+# macOS
+.DS_Store
