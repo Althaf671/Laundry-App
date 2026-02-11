@@ -1,0 +1,75 @@
+"filename", "language", "C#", "XML", "Markdown", "JSON", "ASP.NET Razor", "PostCSS", "JavaScript", "comment", "blank", "total"
+"/Users/althaf/Desktop/LaundrySolution/Laundry.slnx", "XML", 0, 10, 0, 0, 0, 0, 0, 0, 1, 11
+"/Users/althaf/Desktop/LaundrySolution/README.md", "Markdown", 0, 0, 2, 0, 0, 0, 0, 0, 1, 3
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Application/DependencyInjection.cs", "C#", 13, 0, 0, 0, 0, 0, 0, 2, 3, 18
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Application/Laundry.Application.csproj", "XML", 0, 13, 0, 0, 0, 0, 0, 0, 4, 17
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/Common/IAggregateRoot.cs", "C#", 2, 0, 0, 0, 0, 0, 0, 0, 0, 2
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/Common/IDomainExceptions.cs", "C#", 2, 0, 0, 0, 0, 0, 0, 0, 0, 2
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/Common/IEntity.cs", "C#", 2, 0, 0, 0, 0, 0, 0, 0, 0, 2
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/Common/Result.cs", "C#", 36, 0, 0, 0, 0, 0, 0, 0, 14, 50
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/Common/ValueObject.cs", "C#", 33, 0, 0, 0, 0, 0, 0, 0, 13, 46
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/Errors/ValueObjectErrors/EmailErrors.cs", "C#", 14, 0, 0, 0, 0, 0, 0, 0, 4, 18
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/Laundry.Domain.csproj", "XML", 0, 7, 0, 0, 0, 0, 0, 0, 3, 10
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/ValueObjects/Address.cs", "C#", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/ValueObjects/DateRange.cs", "C#", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/ValueObjects/Email.cs", "C#", 22, 0, 0, 0, 0, 0, 0, 0, 8, 30
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/ValueObjects/Money.cs", "C#", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/ValueObjects/OrderCode.cs", "C#", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/ValueObjects/PhoneNumber.cs", "C#", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Domain/ValueObjects/Weight.cs", "C#", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Infrastructure/DependencyInjection.cs", "C#", 12, 0, 0, 0, 0, 0, 0, 5, 8, 25
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Infrastructure/Laundry.Infrastructure.csproj", "XML", 0, 24, 0, 0, 0, 0, 0, 0, 5, 29
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Infrastructure/Persistance/ApplicationDbContext.cs", "C#", 2, 0, 0, 0, 0, 0, 0, 0, 0, 2
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Infrastructure/Persistance/ApplicationDbContextFactory.cs", "C#", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Laundry.WebApp.csproj", "XML", 0, 12, 0, 0, 0, 0, 0, 0, 4, 16
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/Error.cshtml", "ASP.NET Razor", 0, 0, 0, 0, 23, 0, 0, 0, 4, 27
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/Error.cshtml.cs", "C#", 20, 0, 0, 0, 0, 0, 0, 0, 8, 28
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/Index.cshtml", "ASP.NET Razor", 0, 0, 0, 0, 19, 0, 0, 0, 4, 23
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/Index.cshtml.cs", "C#", 14, 0, 0, 0, 0, 0, 0, 0, 6, 20
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/Privacy.cshtml", "ASP.NET Razor", 0, 0, 0, 0, 7, 0, 0, 0, 2, 9
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/Privacy.cshtml.cs", "C#", 14, 0, 0, 0, 0, 0, 0, 0, 6, 20
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/Shared/_Layout.cshtml", "ASP.NET Razor", 0, 0, 0, 0, 54, 0, 0, 0, 4, 58
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/Shared/_Layout.cshtml.css", "PostCSS", 0, 0, 0, 0, 0, 38, 0, 2, 9, 49
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml", "ASP.NET Razor", 0, 0, 0, 0, 2, 0, 0, 0, 1, 3
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/_ViewImports.cshtml", "ASP.NET Razor", 0, 0, 0, 0, 3, 0, 0, 0, 1, 4
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Pages/_ViewStart.cshtml", "ASP.NET Razor", 0, 0, 0, 0, 3, 0, 0, 0, 1, 4
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Program.cs", "C#", 19, 0, 0, 0, 0, 0, 0, 4, 12, 35
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/Properties/launchSettings.json", "JSON", 0, 0, 0, 23, 0, 0, 0, 0, 1, 24
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/appsettings.Development.json", "JSON", 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/appsettings.json", "JSON", 0, 0, 0, 21, 0, 0, 0, 0, 2, 23
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/css/site.css", "PostCSS", 0, 0, 0, 0, 0, 25, 0, 0, 6, 31
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/js/site.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 3, 2, 5
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css", "PostCSS", 0, 0, 0, 0, 0, 3886, 0, 6, 193, 4085
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css", "PostCSS", 0, 0, 0, 0, 0, 1, 0, 5, 0, 6
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css", "PostCSS", 0, 0, 0, 0, 0, 3886, 0, 6, 192, 4084
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css", "PostCSS", 0, 0, 0, 0, 0, 1, 0, 5, 0, 6
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css", "PostCSS", 0, 0, 0, 0, 0, 518, 0, 14, 65, 597
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css", "PostCSS", 0, 0, 0, 0, 0, 1, 0, 5, 0, 6
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css", "PostCSS", 0, 0, 0, 0, 0, 524, 0, 6, 64, 594
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css", "PostCSS", 0, 0, 0, 0, 0, 1, 0, 5, 0, 6
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css", "PostCSS", 0, 0, 0, 0, 0, 4891, 0, 8, 503, 5402
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css", "PostCSS", 0, 0, 0, 0, 0, 1, 0, 5, 0, 6
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css", "PostCSS", 0, 0, 0, 0, 0, 4887, 0, 6, 500, 5393
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css", "PostCSS", 0, 0, 0, 0, 0, 1, 0, 5, 0, 6
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css", "PostCSS", 0, 0, 0, 0, 0, 11136, 0, 24, 897, 12057
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css", "PostCSS", 0, 0, 0, 0, 0, 5, 0, 1, 0, 6
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css", "PostCSS", 0, 0, 0, 0, 0, 11138, 0, 6, 886, 12030
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css", "PostCSS", 0, 0, 0, 0, 0, 5, 0, 1, 0, 6
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js", "JavaScript", 0, 0, 0, 0, 0, 0, 5064, 655, 596, 6315
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 6, 0, 7
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js", "JavaScript", 0, 0, 0, 0, 0, 0, 3568, 578, 302, 4448
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 6, 0, 7
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js", "JavaScript", 0, 0, 0, 0, 0, 0, 3604, 584, 307, 4495
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 6, 0, 7
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js", "JavaScript", 0, 0, 0, 0, 0, 0, 306, 76, 54, 436
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 7, 0, 8
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery-validation/LICENSE.md", "Markdown", 0, 0, 18, 0, 0, 0, 0, 0, 5, 23
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1106, 258, 141, 1505
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 3, 0, 4
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1265, 188, 250, 1703
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 3, 0, 4
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery/dist/jquery.js", "JavaScript", 0, 0, 0, 0, 0, 0, 6767, 1887, 2063, 10717
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery/dist/jquery.min.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1, 1, 3
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery/dist/jquery.slim.js", "JavaScript", 0, 0, 0, 0, 0, 0, 5381, 1558, 1679, 8618
+"/Users/althaf/Desktop/LaundrySolution/src/Laundry.Presentation/Laundry.WebApp/wwwroot/lib/jquery/dist/jquery.slim.min.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1, 1, 3
+"Total", "-", 205, 66, 20, 53, 111, 40945, 27069, 5941, 8844, 83254
