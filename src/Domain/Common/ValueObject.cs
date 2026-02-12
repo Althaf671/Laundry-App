@@ -30,6 +30,11 @@ public abstract class ValueObject : IEquatable<ValueObject>
     public override bool Equals(object? obj) =>
         obj is ValueObject valueObject && ValuesAreEqual(valueObject); 
 
+    public abstract IEnumerable<object> GetAtomicValue();
+
+    private bool ValuesAreEqual(ValueObject valueObject) =>
+        GetAtomicValue()
+            .SequenceEqual(valueObject.GetAtomicValue());
 
     public override int GetHashCode() =>
         GetAtomicValue().Aggregate(
@@ -37,10 +42,4 @@ public abstract class ValueObject : IEquatable<ValueObject>
             (hashcode, value) =>
                 HashCode.Combine(hashcode, value.GetHashCode())
         );
-
-    public abstract IEnumerable<object> GetAtomicValue();
-
-    private bool ValuesAreEqual(ValueObject valueObject) =>
-        GetAtomicValue()
-            .SequenceEqual(valueObject.GetAtomicValue());
 }

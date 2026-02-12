@@ -32,12 +32,6 @@ public class Email : ValueObject
 
     }
 
-    // Deactivate
-    // public static Result<bool> Deactivate()
-    // {
-        
-    // }
-
     // Email validator
     private static Result Validator(string email, string action)
     {
