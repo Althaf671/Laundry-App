@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using src.Laundry.Infrastructure.Persistance;
+using src.Infrastructure.Persistance;
 
-namespace src.Laundry.Infrastructure;
+namespace src.Infrastructure;
 public static class InfrastructureDependencyInjection
 {
     public static IServiceCollection AddInfrastructure(

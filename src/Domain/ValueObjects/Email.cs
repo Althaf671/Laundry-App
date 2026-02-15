@@ -5,7 +5,7 @@ using src.Domain.Errors.ValueObjectErrors;
 
 namespace src.Domain.ValueObjects;
 
-public class Email : ValueObject
+public sealed class Email : ValueObject
 {
     public string Value { get; init; } = string.Empty;
 
@@ -22,11 +22,14 @@ public class Email : ValueObject
         if (validation.IsFailure)
             return Result<Email>.Failure(validation.Error);
 
+        if (validation is null)
+            throw new InvalidOperationException($"DOMAIN_ERROR: {email} can't be empty!");
+
         return Result<Email>.Success(new Email{ Value = email.ToLowerInvariant() });
     }
 
     // Update factory
-    public static Result<Email> Update(string email)
+    public Result<Email> Update(string email)
     {
         return Create(email, nameof(Update));
 
@@ -53,3 +56,4 @@ public class Email : ValueObject
         return Result.Success;
     }
 }
+

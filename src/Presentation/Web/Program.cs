@@ -1,5 +1,5 @@
 using src.Application;
-using src.Laundry.Infrastructure;
+using src.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

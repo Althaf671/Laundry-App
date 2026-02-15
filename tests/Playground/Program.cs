@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using src.Domain.Common;
+using src.Domain.Entity;
 using src.Domain.ValueObjects;
 
 Console.Write("Input email: ");
@@ -20,4 +21,5 @@ catch (DomainException ex)
 {
     Console.WriteLine($"FATAL_ERROR: {ex.Message}");
 }
+
 
