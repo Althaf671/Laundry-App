@@ -2,8 +2,7 @@ namespace src.Domain.Common;
 public sealed record Error(
     string Code, 
     string? Description = null, 
-    string? Domain = null, 
-    string? Action = null)
+    string? Domain = null)
 {
     public static readonly Error None = new(string.Empty);
 }

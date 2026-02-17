@@ -7,31 +7,34 @@ public static class EmailErrors
 {
     private static readonly string Domain = nameof(Email);
 
-    public static Error Empty(string action) 
+    public static Error ValueRequired() 
     {
-        var error = new Error(
-            "Email.Empty", "Email can't be empty", Domain, action
+        return new Error(
+            "Email.ValueRequired", "Email value can't be empty", Domain
         );
-
-        return error;
     }
 
-    public static Error InvalidFormat(string action)  
+    public static Error InvalidFormat()  
     {
-        var error = new Error(
-            "Email.InvalidFormat", "Email format is invalid", Domain, action
+        return new Error(
+            "Email.InvalidFormat", "Email format is invalid", Domain
         );
-
-        return error;
     }
 
-    public static Error ExceedCharactersLimit(string action)  
+    public static Error ExceedCharactersLimit()  
     {
-        var error = new Error(
+        return new Error(
             "Email.ExceedCharactersLimit", "Email reach maxium charater limit", 
-            Domain, action
+            Domain
         );
+    }
 
-        return error;
+    public static Error UnknownDomain()
+    {
+        return new Error(
+            "Email.UnknownDomain", "Email domain is not registered", 
+            Domain
+        );
     }
 }
+

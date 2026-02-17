@@ -1,3 +1,4 @@
 {
-    "dotnet.defaultSolution": "Laundry.slnx"
+    "dotnet.defaultSolution": "Laundry.slnx",
+    "editor.fontSize": 12
 }

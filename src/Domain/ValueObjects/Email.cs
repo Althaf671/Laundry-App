@@ -1,13 +1,13 @@
 using System.Text.RegularExpressions;
 using src.Domain.Common;
-using src.Domain.Errors;
 using src.Domain.Errors.ValueObjectErrors;
+using src.Domain.Exceptions;
 
 namespace src.Domain.ValueObjects;
 
-public sealed class Email : ValueObject
+public sealed partial class Email : ValueObject
 {
-    public string Value { get; init; } = string.Empty;
+    public string Value { get; } 
 
     public override IEnumerable<object> GetAtomicValue()
     {
@@ -15,45 +15,62 @@ public sealed class Email : ValueObject
     }
 
     // Create factory
-    public static Result<Email> Create(string email, string action = nameof(Create))
+    public static Result<Email> Create(string email)
     { 
-        var validation = Validator(email, action);
+        var normalize = email.ToLowerInvariant();
+
+        var validation = ValidateInvariant(normalize);
 
         if (validation.IsFailure)
             return Result<Email>.Failure(validation.Error);
 
-        if (validation is null)
-            throw new InvalidOperationException($"DOMAIN_ERROR: {email} can't be empty!");
-
-        return Result<Email>.Success(new Email{ Value = email.ToLowerInvariant() });
+        return Result<Email>.Success(new Email(normalize));
     }
 
-    // Update factory
-    public Result<Email> Update(string email)
+    private Email(string normalize)
     {
-        return Create(email, nameof(Update));
+        if (string.IsNullOrWhiteSpace(normalize))
+            throw new InvalidValueObjectState($"EMAIL_IMPOSSIBLE_STATE: Email value can't be empty!");
 
+        Value = normalize;
     }
 
-    // Email validator
-    private static Result Validator(string email, string action)
+    // Email Validate Invariant
+    private static Result ValidateInvariant(string email)
     {
         if (string.IsNullOrWhiteSpace(email))
-            return Result
-                .Failure(CommonError.RequiredField
-                    (nameof(Email), $"{nameof(email)} in {nameof(Validator)} method"));
-
-        if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
-            return Result.Failure(EmailErrors.InvalidFormat(action));
-            
+            return Result.Failure(EmailErrors.ValueRequired());
 
         if (email.Length < 7)
-            return Result.Failure(EmailErrors.InvalidFormat(action));
+            return Result.Failure(EmailErrors.InvalidFormat());
 
-        if (email.Length >= 100)
-            return Result.Failure(EmailErrors.ExceedCharactersLimit(action));
+        if (email.Length >= 50)
+            return Result.Failure(EmailErrors.ExceedCharactersLimit());
+
+        if (!EmailRegex().IsMatch(email))
+            return Result.Failure(EmailErrors.InvalidFormat());
+
+        var domain = email.Split('@').Last().ToLowerInvariant();
+        if (!AllowedEmailDomain.Contains(domain))
+            return Result.Failure(EmailErrors.UnknownDomain());
 
         return Result.Success;
     }
+
+    [GeneratedRegex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$")]
+    private static partial Regex EmailRegex();
+
+    private static readonly HashSet<string> AllowedEmailDomain =
+    [
+        "gmail.com",
+        "outlook.com",
+        "yahoo.com",
+        "hotmail.com",
+        "live.com",
+        "icloud.com",
+        "protonmail.com",
+        "aol.com",
+        "zoho.com"
+    ];
 }
 
