@@ -9,6 +9,7 @@ public sealed record Error(
 
 public class Result
 {
+    // Constructor
     protected Result(bool isSuccess, Error error)
     {
         if (isSuccess && error != Error.None ||
@@ -23,7 +24,7 @@ public class Result
 
     public bool IsSuccess { get; }
     
-    public bool IsFailure => !IsSuccess;
+    public bool IsFailure => !IsSuccess; 
 
     public Error Error { get; }
 

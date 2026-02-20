@@ -7,21 +7,40 @@ using src.Domain.Common;
 using src.Domain.ValueObjects;
 
 
-// Weight VO test
-Console.WriteLine("Input weight: ");
+// Phone number test
+// Scenario 1: empty input 
+// Scenario 2: phone below min length 
+// Scenario 3: phone above max length 
+// Scenario 4: phone starts without 08 
+// Scenario 5: phone starts with 08 
+Console.WriteLine("Input phone number: ");
 var input = Console.ReadLine();
-var weight = decimal.Parse(input!);
+var newPhone = PhoneNumber.Create(input!);
+if (newPhone.IsFailure)
+    Console.WriteLine($"RESULT_ERROR: {newPhone.Error}");
 
-Console.WriteLine("Input unit: ");
-var unit = Console.ReadLine();
-var weightUnit = Weight.Create(weight, unit!);
+if (newPhone.IsSuccess)
+    Console.WriteLine($"RESULT_SUCCESS: {newPhone.Value!.Value}");
 
-if (weightUnit.IsFailure)
-    Console.WriteLine($"RESULT_ERROR: {weightUnit.Error}");
+
+
+
+
+// Weight VO test
+// Console.WriteLine("Input weight: ");
+// var input = Console.ReadLine();
+// var weight = decimal.Parse(input!);
+
+// Console.WriteLine("Input unit: ");
+// var unit = Console.ReadLine();
+// var weightUnit = Weight.Create(weight, unit!);
+
+// if (weightUnit.IsFailure)
+//     Console.WriteLine($"RESULT_ERROR: {weightUnit.Error}");
     
-if (weightUnit.IsSuccess)
-    Console.WriteLine(
-        $"RESULT_SUCCESS: weight = {weightUnit.Value!.Value}, unit: {weightUnit.Value.Unit}");
+// if (weightUnit.IsSuccess)
+//     Console.WriteLine(
+//         $"RESULT_SUCCESS: weight = {weightUnit.Value!.Value}, unit: {weightUnit.Value.Unit}");
 
 // Email VO test
 // Console.Write("Input email: ");

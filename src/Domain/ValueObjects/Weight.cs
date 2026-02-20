@@ -6,11 +6,11 @@ namespace src.Domain.ValueObjects;
 
 public sealed class Weight : ValueObject
 {
-    private static readonly string AllowedUnit = "KG";
+    private static readonly string _allowedUnit = "KG";
 
     public decimal Value { get; }
 
-    public string Unit { get; } = AllowedUnit;
+    public string Unit { get; } = _allowedUnit;
 
     public override IEnumerable<object> GetAtomicValue()
     {
@@ -53,7 +53,7 @@ public sealed class Weight : ValueObject
             return Result.Failure(WeightErrors.UnitMaxCharacters());
 
         // Unit must be KG
-        if (unit != AllowedUnit)
+        if (unit != _allowedUnit)
             return Result.Failure(WeightErrors.NotAllowedUnit());
 
         // Value must not negative or exceed 100

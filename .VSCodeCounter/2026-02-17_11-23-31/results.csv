@@ -1,0 +1,15 @@
+"filename", "language", "C#", "XML", "comment", "blank", "total"
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Common/DomainExceptions.cs", "C#", 8, 0, 0, 0, 8
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Common/IAggregateRoot.cs", "C#", 2, 0, 0, 0, 2
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Common/IEntity.cs", "C#", 2, 0, 0, 0, 2
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Common/Result.cs", "C#", 39, 0, 0, 14, 53
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Common/ValueObject.cs", "C#", 33, 0, 0, 12, 45
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Domain.csproj", "XML", 0, 7, 0, 3, 10
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Entities/Order.cs", "C#", 1, 0, 0, 1, 2
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Errors/ValueObjectErrors/EmailErrors.cs", "C#", 34, 0, 0, 7, 41
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Errors/ValueObjectErrors/WeightErrors.cs", "C#", 32, 0, 0, 5, 37
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Exceptions/DomainException.cs", "C#", 8, 0, 0, 0, 8
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Exceptions/InvalidValueObjectState.cs", "C#", 7, 0, 0, 1, 8
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/ValueObjects/Email.cs", "C#", 56, 0, 2, 19, 77
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/ValueObjects/Weight.cs", "C#", 42, 0, 7, 16, 65
+"Total", "-", 264, 7, 9, 78, 358

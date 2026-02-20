@@ -30,7 +30,8 @@ public sealed partial class Email : ValueObject
     private Email(string normalize)
     {
         if (string.IsNullOrWhiteSpace(normalize))
-            throw new InvalidValueObjectState($"EMAIL_IMPOSSIBLE_STATE: Email value can't be empty!");
+            throw new InvalidValueObjectState(
+                $"EMAIL_IMPOSSIBLE_STATE: Email value can't be empty!");
 
         Value = normalize;
     }
@@ -44,7 +45,7 @@ public sealed partial class Email : ValueObject
         if (email.Length < 7)
             return Result.Failure(EmailErrors.InvalidFormat());
 
-        if (email.Length >= 50)
+        if (email.Length > 50)
             return Result.Failure(EmailErrors.ExceedCharactersLimit());
 
         if (!EmailRegex().IsMatch(email))
@@ -60,8 +61,7 @@ public sealed partial class Email : ValueObject
     [GeneratedRegex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$")]
     private static partial Regex EmailRegex();
 
-    private static readonly HashSet<string> AllowedEmailDomain =
-    [
+    private static readonly HashSet<string> AllowedEmailDomain = [
         "gmail.com",
         "outlook.com",
         "yahoo.com",
