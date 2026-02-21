@@ -1,0 +1,7 @@
+"filename", "language", "C#", "comment", "blank", "total"
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Common/Result.cs", "C#", 0, 1, 0, 1
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Errors/ValueObjectErrors/MoneyErros.cs", "C#", 13, 0, 3, 16
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/Errors/ValueObjectErrors/PhoneNumberErrors.cs", "C#", 28, 0, 4, 32
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/ValueObjects/Money.cs", "C#", 55, 14, 19, 88
+"/Users/althaf/Desktop/LaundrySolution/src/Domain/ValueObjects/PhoneNumber.cs", "C#", 97, 14, 25, 136
+"Total", "-", 193, 29, 51, 273

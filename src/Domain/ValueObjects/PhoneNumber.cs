@@ -70,9 +70,7 @@ public sealed partial class PhoneNumber : ValueObject
         // Remove dashes
         var cleanPhone = trimPhone.Replace("-", "");
         if (cleanPhone.Contains('-'))
-        {
             return Result<string>.Failure(PhoneNumberErrors.InvalidFormat());
-        }
 
         // Normalize
         if (cleanPhone.StartsWith("08"))

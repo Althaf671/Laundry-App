@@ -1,0 +1,49 @@
+Date : 2026-02-20 14:02:15
+Directory : /Users/althaf/Desktop/LaundrySolution/src/Domain
+Total : 17 files,  464 codes, 38 comments, 129 blanks, all 631 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C#       |         16 |        457 |         38 |        126 |        621 |
+| XML      |          1 |          7 |          0 |          3 |         10 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                              |         17 |        464 |         38 |        129 |        631 |
+| . (Files)                                                                                      |          1 |          7 |          0 |          3 |         10 |
+| Common                                                                                         |          5 |         84 |          1 |         26 |        111 |
+| Entities                                                                                       |          1 |          1 |          0 |          1 |          2 |
+| Errors                                                                                         |          4 |        107 |          0 |         19 |        126 |
+| Errors/ValueObjectErrors                                                                       |          4 |        107 |          0 |         19 |        126 |
+| Exceptions                                                                                     |          2 |         15 |          0 |          1 |         16 |
+| ValueObjects                                                                                   |          4 |        250 |         37 |         79 |        366 |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                       | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Common/DomainExceptions.cs                    | C#       |          8 |          0 |          0 |          8 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Common/IAggregateRoot.cs                      | C#       |          2 |          0 |          0 |          2 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Common/IEntity.cs                             | C#       |          2 |          0 |          0 |          2 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Common/Result.cs                              | C#       |         39 |          1 |         14 |         54 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Common/ValueObject.cs                         | C#       |         33 |          0 |         12 |         45 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Domain.csproj                                 | XML      |          7 |          0 |          3 |         10 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Entities/Order.cs                             | C#       |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Errors/ValueObjectErrors/EmailErrors.cs       | C#       |         34 |          0 |          7 |         41 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Errors/ValueObjectErrors/MoneyErros.cs        | C#       |         13 |          0 |          3 |         16 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Errors/ValueObjectErrors/PhoneNumberErrors.cs | C#       |         28 |          0 |          4 |         32 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Errors/ValueObjectErrors/WeightErrors.cs      | C#       |         32 |          0 |          5 |         37 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Exceptions/DomainException.cs                 | C#       |          8 |          0 |          0 |          8 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/Exceptions/InvalidValueObjectState.cs         | C#       |          7 |          0 |          1 |          8 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/ValueObjects/Email.cs                         | C#       |         56 |          2 |         19 |         77 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/ValueObjects/Money.cs                         | C#       |         55 |         14 |         19 |         88 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/ValueObjects/PhoneNumber.cs                   | C#       |         97 |         14 |         25 |        136 |
+| /Users/althaf/Desktop/LaundrySolution/src/Domain/ValueObjects/Weight.cs                        | C#       |         42 |          7 |         16 |         65 |
+| Total                                                                                          |          |        464 |         38 |        129 |        631 |
++------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
